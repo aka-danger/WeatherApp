@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@android:color/transparent"
+    tools:context="com.weather.weather.WeatherActivity"
+    android:id="@+id/WeatherActivity">
+
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:id="@+id/txtMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/txtMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+</LinearLayout>
