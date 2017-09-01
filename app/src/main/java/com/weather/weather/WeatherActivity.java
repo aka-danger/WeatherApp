@@ -236,11 +236,11 @@ public class WeatherActivity extends AppCompatActivity implements LocationListen
                     try {
                         JSONObject obj = new JSONObject(response);
                         JSONObject mainObj = obj.getJSONObject("main");
-                        max = mainObj.getString("temp_min");
-                        min = mainObj.getString("temp_max");
+                        min = mainObj.getString("temp_min");
+                        max = mainObj.getString("temp_max");
 
                     } catch (JSONException e) {
-                        //e.printStackTrace();
+                        e.printStackTrace();
                     }
                 }
             }
